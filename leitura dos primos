@@ -1,13 +1,10 @@
 Algoritmo "desgraça dos primos"
+
 Var
  a, d, n1, n2, c, s, q, ma, me:inteiro
  m:real
+
 Inicio
-a <- 0
-c <- 0
-s <- 0
-q <- 0
-d <- 0
 escreva("digite os numeros")
 leia(n1, n2)
 se (n1 < 0) ou (n2 < 0) ou (n1 > n2) entao
